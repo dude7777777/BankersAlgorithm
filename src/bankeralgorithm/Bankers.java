@@ -104,12 +104,11 @@ public class Bankers { // declares a class called Bankers
 
 					j++; // increments j by 1
 				}
+			}
 
-				if (!allocated) {
-					break; // breaks the while loop if the program canot allocate any resources (deadlock
-							// happened)
-
-				}
+			if (!allocated) {
+				break; // breaks the while loop if the program canot allocate any resources (deadlock
+						// happened)
 			}
 		}
 
